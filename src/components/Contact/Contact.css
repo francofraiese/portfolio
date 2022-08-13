@@ -11,7 +11,13 @@
     cursor: pointer;
 }
 
-.contact > div {
+.linkedin, .github, .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailopen{
     display: flex;
     justify-content: center;
     align-items: center;
