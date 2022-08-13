@@ -105,3 +105,40 @@
         height: 350px;
     }
 }
+
+@media (max-width: 1000px){
+    .aboutme{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px 3vw 20px 3vw;
+    }
+    
+    .aboutme > .welcome > h1 {
+        margin: 3px 0px;
+        font-size: 27px;
+        color: white;
+    }
+    .aboutme > .welcome > h2 {
+        margin: 3px 0px;
+        font-size: 20px;
+        color: #38F677;
+        
+    }
+    .aboutme > .welcome > h4{
+        margin: 3px 0px;
+        margin-top: 30px;
+        font-size: 15px;
+        color: white;
+        font-weight: normal;
+    }
+    
+    .aboutme > img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .skip{
+        display: none
+    }
+}

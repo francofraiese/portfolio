@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div className="skills" id="skills">
             <div className="skillcont4">
-                <br/>
+                <br className='spaces'/>
                 <div className="skillspans">
                     <span className="span-img">
                         <img src="./images/JS.png" alt="JS"/>
@@ -37,10 +37,10 @@ const Skills = () => {
                         <h2>HTML 5</h2>
                     </span>
                 </div>
-                <br/>
+                <br className='spaces'/>
             </div>
             <div className="skillcont3">
-                <br/>
+                <br className='spaces'/>
                 <div className="skillspans">
                     <span className="span-img">
                         <img src="./images/NODE.png" alt="NODE"/>
@@ -65,10 +65,10 @@ const Skills = () => {
                         <h2>REDUX</h2>
                     </span>
                 </div>
-                <br/>
+                <br className='spaces'/>
             </div>
             <div className="skillcont3">
-            <br/>
+                <br className='spaces'/>
                 <div className="skillspans">
                     <span className="span-img">
                         <img src="./images/postgres.png" alt="postgres"/>
@@ -93,7 +93,7 @@ const Skills = () => {
                         <h2>SEQUELIZE</h2>
                     </span>
                 </div>
-                <br/>
+                <br className='spaces'/>
             </div>
         </div>
     )
