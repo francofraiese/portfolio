@@ -1,0 +1,67 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px;
+}
+.skillspans{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills > .skillcont3 > .skillspans > span > img {
+    width: 95px;
+    height: 95px;
+}
+.skills > .skillcont4 > .skillspans > span > img {
+    width: 95px;
+    height: 95px;
+}
+
+.skillcont3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 15px 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.skillcont4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+  
+  .skillspans:hover span {
+    transition: transform 0.3s ease-out;
+  }
+  
+  .span-icon {
+    padding: 10px;
+  }
+  
+  .span-text {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+  }
+
+  .span-text > h2 {
+    font-weight: normal;
+  }
+  
+  .skillspans:hover .span-icon {
+    transform: translateY(-200%);
+  }
+  
+  .skillspans:hover .span-text {
+    transform: none;
+  }

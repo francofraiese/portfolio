@@ -1,0 +1,35 @@
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px 150px;
+}
+
+.aboutme > .welcome > h1 {
+    margin: 3px 0px;
+    font-size: 68px;
+    color: white;
+}
+.aboutme > .welcome > h2 {
+    margin: 10px 0px;
+    font-size: 38px;
+    color: #38F677;
+    
+}
+.aboutme > .welcome > h3 {
+    margin: 10px 0px;
+    font-size: 34px;
+    color: white;
+    font-weight: normal;
+}
+.aboutme > .welcome > h4{
+    margin: 5px 0px;
+    font-size: 27px;
+    color: white;
+    font-weight: normal;
+}
+
+.aboutme > img {
+    width: 30vw;
+    height: 30vw;
+}

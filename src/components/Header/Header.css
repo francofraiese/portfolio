@@ -1,0 +1,29 @@
+.navbar{
+    left: 0;
+    position: fixed;
+    margin: 0 auto;
+    padding: 30px 0;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url('../../../public/images/navbar\ back.png');
+    backdrop-filter: blur(5px);
+}
+
+.navbar > a {
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.navbar > a:hover {
+    color: #38F677;
+    
+}

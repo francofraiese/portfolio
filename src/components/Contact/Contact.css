@@ -1,0 +1,17 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 250px 0px;
+}
+
+.contact > div a img {
+    width: 125px;
+    height: 125px;
+}
+
+.contact > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
