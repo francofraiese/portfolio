@@ -109,33 +109,54 @@
 @media (max-width: 1000px){
     .aboutme{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 80px 3vw 20px 3vw;
+        flex-direction: column-reverse;
+        padding: 130px 3vw 50px 3vw;
+        align-items: center;
+    }
+
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90vw
     }
     
     .aboutme > .welcome > h1 {
         margin: 3px 0px;
         font-size: 27px;
         color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .aboutme > .welcome > h2 {
-        margin: 3px 0px;
+        margin: 3px 0px 25px 0;
         font-size: 20px;
         color: #38F677;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
     }
     .aboutme > .welcome > h4{
         margin: 3px 0px;
-        margin-top: 30px;
+        margin-top: 6px;
         font-size: 15px;
         color: white;
         font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
+    .aboutme > .welcome > h4 > span {
+        margin: 0 4px;
+    }
     .aboutme > img {
-        width: 150px;
-        height: 150px;
+        width: 175px;
+        height: 175px;
+        margin-bottom: 20px;
     }
 
     .skip{
