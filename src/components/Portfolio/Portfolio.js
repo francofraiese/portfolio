@@ -12,6 +12,16 @@ const Portfolio = () => {
                 </a>
                 <h3>SPA for searching games by their platforms and genres </h3>
             </div>
+            <div className="rework">
+                <a href="http://re-work-ten.vercel.app" target="_blank" title="REwork">
+                <h1>REwork</h1>
+                </a>
+                <a href="http://re-work-ten.vercel.app" target="_blank" title="REwork">
+                    <img src="./images/Rework.jpg" alt="REwork"/>
+                </a>
+                <h3>Working-Social Network to connect freelancers</h3>
+                <h3> with people who needs to meet a need.</h3>
+            </div>
         </div>
     )
 }
