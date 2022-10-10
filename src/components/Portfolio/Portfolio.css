@@ -2,27 +2,26 @@
 .portfolio {
     padding: 100px 0px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px
 }
 
-.portfolio > .frikipedia, .portfolio > .rework{
+.portfolio > .div{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.portfolio > .frikipedia > a > img, .portfolio > .rework > a > img {
+.portfolio > div > a > img {
     width: 680px;
     height: 400px;
 }
 
-.portfolio > .frikipedia > a, .portfolio > .rework > a {
+.portfolio > div > a {
     text-decoration: none;
     margin: 2px 0px;
     font-size: 35px;
-    color:#ff1b87;
     letter-spacing: 2px;
     font-weight: normal;
 }
@@ -42,15 +41,15 @@
     color:#e76f51;
     letter-spacing: 2px;
 }
-
-.portfolio > .frikipedia > h3 {
-    margin: 8px 0px;
-    font-size: 24px;
-    color: white;
-    font-weight: 250;
+.portfolio > .madeira > a > h1 {
+    text-decoration: none;
+    margin: 2px 0px;
+    font-size: 35px;
+    color:#FCA311;
+    letter-spacing: 2px;
 }
 
-.portfolio > .rework > h3 {
+.portfolio > div > h3 {
     margin: 8px 0px;
     font-size: 24px;
     color: white;
@@ -59,6 +58,7 @@
 
 @media (max-width: 1270px){
     .portfolio {
+        gap: 30px;
         padding: 80px 0px;
     }
     
@@ -77,7 +77,6 @@
         text-decoration: none;
         margin: 2px 0px;
         font-size: 50px;
-        color:#38F677;
         letter-spacing: 2px;
         font-weight: normal;
     }
@@ -86,7 +85,6 @@
         text-decoration: none;
         margin: 2px 0px;
         font-size: 50px;
-        color:#38F677;
         letter-spacing: 2px;
         font-weight: normal;
     }
@@ -94,7 +92,6 @@
     .portfolio > .frikipedia > h3 {
         margin: 8px 0px;
         font-size: 24px;
-        color: white;
         font-weight: 250;
     }
     .portfolio > .rework {
@@ -129,10 +126,43 @@
         font-size: 24px;
         font-weight: 250;
     }
+    .portfolio > .madeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .portfolio > .madeira > a > img {
+        width: 760px;
+        height: 430px;
+    }
+    
+    .portfolio > .madeira > a {
+        text-decoration: none;
+        margin: 2px 0px;
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-weight: normal;
+    }
+    
+    .portfolio > .madeira > a > h1 {
+        text-decoration: none;
+        margin: 2px 0px;
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-weight: normal;
+    }
+    
+    .portfolio > .madeira > h3 {
+        margin: 8px 0px;
+        font-size: 24px;
+        font-weight: 250;
+    }
 }
 @media (max-width: 1100px){
     .portfolio {
         padding: 70px 0px;
+        gap: 25px
     }
     
     .portfolio > .frikipedia {
@@ -150,7 +180,6 @@
         text-decoration: none;
         margin: 2px 0px;
         font-size: 30px;
-        color:#38F677;
         letter-spacing: 2px;
         font-weight: normal;
     }
@@ -159,7 +188,6 @@
         text-decoration: none;
         margin: 2px 0px;
         font-size: 30px;
-        color:#38F677;
         letter-spacing: 2px;
         font-weight: normal;
     }
@@ -167,7 +195,6 @@
     .portfolio > .frikipedia > h3 {
         margin: 8px 0px;
         font-size: 20px;
-        color: white;
         font-weight: 250;
     }
 
@@ -203,10 +230,43 @@
         font-size: 20px;
         font-weight: 250;
     }
+    .portfolio > .madeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .portfolio > .madeira > a > img {
+        width: 610px;
+        height: 325px;
+    }
+    
+    .portfolio > .madeira > a {
+        text-decoration: none;
+        margin: 2px 0px;
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: normal;
+    }
+    
+    .portfolio > .madeira > a > h1 {
+        text-decoration: none;
+        margin: 2px 0px;
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: normal;
+    }
+    
+    .portfolio > .madeira > h3 {
+        margin: 8px 0px;
+        font-size: 20px;
+        font-weight: 250;
+    }
 }
 @media (max-width: 1000px){
     .portfolio {
         padding: 200px 0px;
+        gap: 20px
     }
     
     .portfolio > .frikipedia {
@@ -224,7 +284,6 @@
         text-decoration: none;
         margin: 5px 0px;
         font-size: 35px;
-        color:#38F677;
         letter-spacing: 1px;
         font-weight: normal;
     }
@@ -233,7 +292,6 @@
         text-decoration: none;
         margin: 5px 0px;
         font-size: 35px;
-        color:#38F677;
         letter-spacing: 1px;
         font-weight: normal;
     }
@@ -274,6 +332,40 @@
     }
     
     .portfolio > .rework > h3 {
+        margin: 8px 10vw;
+        font-size: 17px;
+        font-weight: 250;
+        text-overflow: ellipsis;
+        text-align: center;
+    }
+    .portfolio > .madeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .portfolio > .madeira > a > img {
+        width: 80vw;
+        height: 45vw;
+    }
+    
+    .portfolio > .madeira > a {
+        text-decoration: none;
+        margin: 5px 0px;
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-weight: normal;
+    }
+    
+    .portfolio > .madeira > a > h1 {
+        text-decoration: none;
+        margin: 5px 0px;
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-weight: normal;
+    }
+    
+    .portfolio > .madeira > h3 {
         margin: 8px 10vw;
         font-size: 17px;
         font-weight: 250;

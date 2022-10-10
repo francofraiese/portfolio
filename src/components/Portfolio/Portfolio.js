@@ -22,6 +22,16 @@ const Portfolio = () => {
                 <h3>Working-Social Network to connect freelancers</h3>
                 <h3> with people who needs to meet a need.</h3>
             </div>
+            <div className="madeira">
+                <a href="https://madeiraproject.vercel.app/" target="_blank" title="Madeira Project">
+                <h1>Madeira Project</h1>
+                </a>
+                <a href="https://madeiraproject.vercel.app/" target="_blank" title="Madeira Project">
+                    <img src="./images/Madeira.png" alt="REwork"/>
+                </a>
+                <h3>A website for a card videogame where players can create</h3>
+                <h3>accounts, view other players' profiles and check ranking.</h3>
+            </div>
         </div>
     )
 }
